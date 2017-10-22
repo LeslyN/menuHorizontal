@@ -1,0 +1,45 @@
+body {
+	font-family: sans-serif;
+
+}
+
+nav {
+	/*outline: 1px solid yellow;*/
+}
+
+ul {
+	/*outline: 1px solid blue;*/
+	background: #2e2e2a;
+	line-height: 40px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	/* Devuelve las etiqueta li a su contenedor*/
+	overflow: auto;
+}
+
+li {
+	/*outline: 1px solid red;*/
+	width: 100px;
+
+	/* Saca del contenedor a los li.
+	Si se usa float, también debe usarse la etiqueta overflow */
+	float: left;
+
+	/*display: inline-block;*/
+	
+	text-align: center;
+}
+
+a {
+	/*outline: 1px solid green;*/
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #f9a91a;
+	color: #000;
+}
